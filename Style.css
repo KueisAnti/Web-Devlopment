@@ -1,0 +1,39 @@
+/* style.css */
+
+/* Global body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #2c3e50;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* 1. Type Selector Example */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 12px 0;                  /* Box Model: Margin */
+  padding: 10px 15px;              /* Box Model: Padding */
+  border-left: 4px solid #16a085; /* Box Model: Border (Teal accent) */
+  background-color: #ffffff;
+}
+
+/* 2. Class Selector Example */
+.food-card {
+  background-color: #ffffff;
+  margin: 20px 0;                 /* Box Model: Margin */
+  padding: 20px;                  /* Box Model: Padding */
+  border: 2px solid #2c3e50;      /* Box Model: Border (Navy Blue) */
+  border-radius: 8px;
+}
+
+/* 3. ID Selector Example */
+#main-header {
+  background-color: #2c3e50;      /* Primary Color: Navy */
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 24px;            /* Box Model: Margin */
+  padding: 20px;                  /* Box Model: Padding */
+  border-bottom: 4px solid #e67e22; /* Complementary Color: Burnt Orange */
+}
