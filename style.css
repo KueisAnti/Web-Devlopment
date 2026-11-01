@@ -37,3 +37,19 @@ p {
   padding: 20px;                  /* Box Model: Padding */
   border-bottom: 4px solid #e67e22; /* Complementary Color: Burnt Orange */
 }
+/* Multi-column layout using Flexbox for desktop screens */
+.highlights-container {
+  display: flex;
+  gap: 20px;
+}
+
+.highlight-card {
+  flex: 1;
+}
+
+/* Responsive breakpoint for Mobile/Tablet screens */
+@media (max-width: 768px) {
+  .highlights-container {
+    flex-direction: column;
+  }
+}
