@@ -53,3 +53,6 @@ p {
     flex-direction: column;
   }
 }
+#main-header nav a {
+  color: #ffffff;
+  text-decoration: none; /* This optional line removes the underline */}
